@@ -1,0 +1,223 @@
+/*styles for index homepage*/
+body {
+    margin: 0px;
+    background-color: rgb(231, 207, 201);
+}
+/*navigation bar in header*/
+nav {
+    background-color: rgb(189, 47, 47);
+    padding: 5px;
+    text-align: left;
+    margin-top: 0px;
+    border: 1px solid rgb(151, 150, 150);
+    box-shadow: 1px 2px 2px gray;
+}
+/*link names in naviagtion bar*/
+a {
+    margin: 3rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+/*logo image*/
+#logoImg {
+    mix-blend-mode: multiply;  /*this allows the background of the image to blend into the webpage background colour*/
+    width: 270px;
+    height: 227px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: courier, monospace;
+}
+
+p {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+    color: rgb(189, 47, 47);
+ }
+/*latest recipe images*/
+img { 
+    width: 320px;
+    height: 360px;
+}
+/*grid row of latest*/
+.row {
+    margin-left:30px;
+    margin-right: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#quote {
+    background-color: rgba(189, 47, 47, .1);
+    width: 32rem;
+    margin-inline: auto;
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-style: italic;
+}
+
+.footerIndex {
+    background-color: rgb(189, 47, 47);
+    height: 247px;
+    text-align: right;
+    margin-bottom: px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn {
+background-color: rgb(231, 207, 201);
+padding: 3px;
+padding-inline: 6px;
+color: black;
+}
+
+h6 {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 9rem;
+    font-size: 19px;
+}
+
+.button {
+    text-align: center;
+    margin-right: 15rem;
+    margin-bottom: 21px;
+}
+
+/*Catagory Webpages*/
+.headingImg {
+    height: 15rem;
+    width: max-content;
+}
+/*img header*/
+.container {
+    position: relative;
+    text-align: center;
+    margin-left: 4rem;
+    font-size: 0px;
+    padding-bottom: 5rem;
+}
+/*the container and text selector work together to postion the text over the img*/
+.text {
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(248, 232, 232);
+    font-family: Arial, sans-serif;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    box-shadow: 1px 2px 2px rgb(177, 177, 177);
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.recipeName {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: serif;
+}
+
+.horizontal {
+    height: 2px;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(189, 47, 47);
+    opacity: unset;
+}
+
+.recipeImg {
+    height:300px;
+    width:270px;
+    margin-left: 31rem;
+    margin-top: 3rem;
+    border: 4px solid whitesmoke;
+    mix-blend-mode: normal;
+}
+
+.footer {
+    background-color: rgb(189, 47, 47);
+    height: 2.5rem;
+    text-align: right;
+    margin-bottom: 0px;
+}
+/*bottom logo*/
+span {
+    font-family: courier, monospace;
+    margin-right: 30rem;
+    font-size: 20px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.radio {
+    margin-left: 24rem;
+    margin-right: 24rem;
+    background-color: rgb(246, 196, 196);
+    width: 29rem;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid rgb(51, 50, 50);
+}
+
+.saveClassButton {
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: double;
+    border-color: lightcoral;
+    vertical-align: middle;
+    margin-left: 10rem;
+}
+
+.saveRowDesign {
+    padding: 0px;
+}
+
+.btn-outline-danger {
+    border: 2px double lightcoral; /* Double border */
+    border-radius: 0; /* Straight edges */
+    padding-top: 1px;
+    padding-bottom: 1px;
+    vertical-align: middle;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-check {
+    display: inline-block; /* Ensures the checkbox doesn't disrupt layout */
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+ion-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+
+.contactUs {
+    text-align: center;
+}
+

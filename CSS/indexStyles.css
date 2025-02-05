@@ -1,9 +1,11 @@
+/* || Header and Main Navigation */
+
 /*styles for index homepage*/
 body {
     margin: 0px;
     background-color: rgb(231, 207, 201);
 }
-/*navigation bar in header*/
+
 nav {
     background-color: rgb(189, 47, 47);
     padding: 5px;
@@ -20,7 +22,7 @@ a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
-/*logo image*/
+
 #logoImg {
     mix-blend-mode: multiply;  /*this allows the background of the image to blend into the webpage background colour*/
     width: 270px;
@@ -32,7 +34,7 @@ a {
     margin-top: 3rem;
     font-family: courier, monospace;
 }
-
+/* About */
 p {
     margin-right: 5rem;
     margin-left: 5rem;
@@ -40,12 +42,13 @@ p {
     padding-bottom: 2rem;
 }
 
+/* || Latest Recipe Section */
 h3 {
     text-align: center;
     padding-bottom: 1rem;
     color: rgb(189, 47, 47);
  }
-/*latest recipe images*/
+
 img { 
     width: 320px;
     height: 360px;
@@ -67,6 +70,7 @@ img {
     font-style: italic;
 }
 
+/* || Footer Section */
 .footerIndex {
     background-color: rgb(189, 47, 47);
     height: 247px;
@@ -75,11 +79,13 @@ img {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.btn {
-background-color: rgb(231, 207, 201);
-padding: 3px;
-padding-inline: 6px;
-color: black;
+ion-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+.contactUs {
+    text-align: center;
 }
 
 h6 {
@@ -89,18 +95,37 @@ h6 {
     font-size: 19px;
 }
 
+/* submit btn */
+.btn {
+background-color: rgb(231, 207, 201);
+padding: 3px;
+padding-inline: 6px;
+color: black;
+}
 .button {
     text-align: center;
     margin-right: 15rem;
     margin-bottom: 21px;
 }
 
-/*Catagory Webpages*/
+hr {
+    margin: 0px;
+}
+
+/*bottom logo*/
+span {
+    font-family: courier, monospace;
+    margin-right: 30rem;
+    font-size: 20px;
+}
+
+/* || Catagory Webpages */
+
+/* || Img Header */
 .headingImg {
     height: 15rem;
     width: max-content;
 }
-/*img header*/
 .container {
     position: relative;
     text-align: center;
@@ -116,26 +141,6 @@ h6 {
     color: white;
 }
 
-table {
-    border-collapse: collapse;
-    background-color: rgb(248, 232, 232);
-    font-family: Arial, sans-serif;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    box-shadow: 1px 2px 2px rgb(177, 177, 177);
-}
-
-td, th {
-    border: 1px solid gray;
-    padding: 5px;
-}
-
-.recipeName {
-    text-align: center;
-    padding-top: 2rem;
-    font-family: serif;
-}
-
 .horizontal {
     height: 2px;
     width: 30rem;
@@ -145,6 +150,7 @@ td, th {
     opacity: unset;
 }
 
+/* || Each Recipe */
 .recipeImg {
     height:300px;
     width:270px;
@@ -153,32 +159,22 @@ td, th {
     border: 4px solid whitesmoke;
     mix-blend-mode: normal;
 }
-
-.footer {
-    background-color: rgb(189, 47, 47);
-    height: 2.5rem;
-    text-align: right;
-    margin-bottom: 0px;
+.recipeName {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: serif;
 }
-/*bottom logo*/
-span {
-    font-family: courier, monospace;
-    margin-right: 30rem;
-    font-size: 20px;
+table {
+    border-collapse: collapse;
+    background-color: rgb(248, 232, 232);
+    font-family: Arial, sans-serif;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    box-shadow: 1px 2px 2px rgb(177, 177, 177);
 }
-
-hr {
-    margin: 0px;
-}
-
-.radio {
-    margin-left: 24rem;
-    margin-right: 24rem;
-    background-color: rgb(246, 196, 196);
-    width: 29rem;
-    padding: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 2px solid rgb(51, 50, 50);
+td, th {
+    border: 1px solid gray;
+    padding: 5px;
 }
 
 .saveClassButton {
@@ -190,10 +186,7 @@ hr {
     margin-left: 10rem;
 }
 
-.saveRowDesign {
-    padding: 0px;
-}
-
+/* Like button*/
 .btn-outline-danger {
     border: 2px double lightcoral; /* Double border */
     border-radius: 0; /* Straight edges */
@@ -202,22 +195,29 @@ hr {
     vertical-align: middle;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 .btn-check {
     display: inline-block; /* Ensures the checkbox doesn't disrupt layout */
 }
 
+/* || Footer Section For Categories */
+.footer {
+    background-color: rgb(189, 47, 47);
+    height: 2.5rem;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+/* || Additional Features*/
+.radio {
+    margin-left: 24rem;
+    margin-right: 24rem;
+    background-color: rgb(246, 196, 196);
+    width: 29rem;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid rgb(51, 50, 50);
+}
+/*Comments*/
 .form-control {
     border: 1px solid black;
 }
-
-ion-icon {
-    font-size: 20px;
-    margin-right: 10px;
-    margin-bottom: 24px;
-}
-
-.contactUs {
-    text-align: center;
-}
-
